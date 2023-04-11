@@ -41,7 +41,6 @@ export const H1 = styled.h1`
   line-height: 40px;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 80px;
 `;
 
 

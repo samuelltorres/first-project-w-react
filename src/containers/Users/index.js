@@ -45,7 +45,7 @@ const Users = () => {
     <Container>
       <Image src={Avatar} alt="logo-imagem" />
       <ContainerItens>
-        <H1>Usuarios</H1>
+        <H1>Usuários</H1>
 
         <ul>
           {users.map((user) => (
