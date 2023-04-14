@@ -8,11 +8,12 @@ import Avatar from "../../assets/userprofile.svg";
 import Arrow from "../../assets/arrow.svg";
 import Trash from "../../assets/trash.svg";
 
+import H1 from '../../components/Title'
+import ContainerItens from '../../components/ContainerItens'
+
 import {
   Container,
   Image,
-  ContainerItens,
-  H1,
   Button,
   User,
 } from "./styles";
@@ -44,7 +45,7 @@ const Users = () => {
   return (
     <Container>
       <Image src={Avatar} alt="logo-imagem" />
-      <ContainerItens>
+      <ContainerItens isBlur={true}>
         <H1>Usuários</H1>
 
         <ul>
